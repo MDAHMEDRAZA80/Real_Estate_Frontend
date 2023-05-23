@@ -41,7 +41,7 @@ const Property = () => {
     // axios.get("http://localhost:5000/property")
     axios({
       method: "get",
-      url: "https://real-esate-practice.onrender.com/property", //"https://realestate-backend-ulho.onrender.com/property",
+      url: "https://real-esate-practice.onrender.com/property",
       headers: {
         Accept: "application/json",
         authorization: token,
